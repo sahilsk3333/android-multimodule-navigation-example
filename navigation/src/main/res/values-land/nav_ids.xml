@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="home_flow" type="id" />
+    <item name="explore_flow" type="id" />
+    <item name="profile_flow" type="id"/>
+    <item name="recent_flow" type="id"/>
+</resources>

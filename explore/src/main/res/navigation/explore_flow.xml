@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/explore_flow"
+    app:startDestination="@id/exploreFragment">
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.sahilpc.explore.ExploreFragment"
+        android:label="fragment_explore"
+        tools:layout="@layout/fragment_explore" >
+        <action
+            android:id="@+id/action_exploreFragment4_to_exploreChildFragment"
+            app:destination="@id/exploreChildFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exploreChildFragment"
+        android:name="com.sahilpc.explore.ExploreChildFragment"
+        android:label="fragment_explore_child"
+        tools:layout="@layout/fragment_explore_child" />
+</navigation>

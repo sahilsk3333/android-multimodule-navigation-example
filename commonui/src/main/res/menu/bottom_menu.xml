@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:id="@+id/home_flow"/>
+
+    <item android:title="Explore"
+        android:icon="@drawable/ic_baseline_explore_24"
+        android:id="@+id/explore_flow"/>
+
+    <item android:title="Recent"
+        android:icon="@drawable/ic_recent"
+        android:id="@+id/recent_flow"/>
+
+    <item android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        android:id="@+id/profile_flow"/>
+</menu>
